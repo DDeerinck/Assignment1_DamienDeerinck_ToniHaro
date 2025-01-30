@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Assignment1_DamienDeerinck_ToniHaro</string>
+    <string name="grade">Grade</string>
+    <string name="enter_grade">Enter Grade</string>
+    <string name="textview">TextView</string>
+    <string-array name="dev_info">
+    </string-array>
 </resources>
