@@ -3,6 +3,15 @@
     <string name="grade">Grade</string>
     <string name="enter_grade">Enter Grade</string>
     <string name="textview">TextView</string>
-    <string-array name="dev_info">
+    <string-array name="Grades">
+        <item>A</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B</item>
+        <item>B-</item>
+        <item>C+</item>
+        <item>C</item>
+        <item>C-</item>
+        <item>F</item>
     </string-array>
 </resources>
