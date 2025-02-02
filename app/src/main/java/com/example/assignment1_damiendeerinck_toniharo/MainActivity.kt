@@ -3,6 +3,7 @@ package com.example.assignment1_damiendeerinck_toniharo
 
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ListView
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -30,7 +31,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun getGrade(gradeIn:String):String {
-        val score = gradeIn.toDoubleOrNull();
+        val score = gradeIn.toDoubleOrNull()
 
         return if(score == null) {"Null"
         } else if(score >  94){"A"
