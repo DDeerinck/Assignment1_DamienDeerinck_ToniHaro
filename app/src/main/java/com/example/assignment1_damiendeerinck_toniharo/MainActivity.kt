@@ -25,8 +25,23 @@ class MainActivity : AppCompatActivity() {
             val gradeIn = findViewById<TextInputEditText>(R.id.gradeInput)
             val numberGrade = gradeIn.text
             val output = findViewById<TextView>(R.id.gradeView)
-            output.text = numberGrade
+            output.text = getGrade(numberGrade.toString())
         }
+    }
+
+    fun getGrade(gradeIn:String):String {
+        val score = gradeIn.toDoubleOrNull();
+
+        return if(score == null) {"Null"
+        } else if(score >  94){"A"
+        } else if(score >= 90){"A-"
+        } else if(score >= 87){"B+"
+        } else if(score >= 83){"B"
+        } else if(score >= 80){"B-"
+        } else if(score >= 77){"C+"
+        } else if(score >= 73){"C"
+        } else if(score >= 70){"C-"
+        } else "F"
     }
 
 }
