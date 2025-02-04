@@ -28,8 +28,6 @@ class GradeActivity : AppCompatActivity() {
             val output = findViewById<TextView>(R.id.gradeView)
             output.text = getGrade(numberGrade.toString())
         }
-
-
     }
     fun getGrade(gradeIn:String):String {
         val score = gradeIn.toDoubleOrNull()
