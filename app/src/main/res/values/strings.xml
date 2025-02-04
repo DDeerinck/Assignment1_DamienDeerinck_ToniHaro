@@ -15,4 +15,5 @@
         <item>C-</item>
         <item>F</item>
     </string-array>
+    <string name="test">test</string>
 </resources>
