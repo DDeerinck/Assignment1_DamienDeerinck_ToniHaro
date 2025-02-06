@@ -5,7 +5,9 @@
     <string name="textview">Grade Checker</string>
     <string name="to_grading_screen">to grading screen</string>
     <string-array name="devInfo">
-        <item>CS, 2024</item>
-        <item>CS, 2024</item>
+        <item>Damien Deerinck</item>
+        <item>CS, 2025</item>
+        <item>Toni Haro</item>
+        <item>CS, 2025</item>
     </string-array>
 </resources>
