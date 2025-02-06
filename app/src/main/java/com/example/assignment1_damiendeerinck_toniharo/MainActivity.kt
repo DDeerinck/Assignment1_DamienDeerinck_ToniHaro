@@ -2,6 +2,7 @@ package com.example.assignment1_damiendeerinck_toniharo
 
 import android.content.Intent
 import android.os.Bundle
+import android.widget.ArrayAdapter
 import android.widget.Button
 import android.widget.ListView
 import android.widget.TextView
@@ -21,6 +22,8 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+
         val gradeScreenButton = findViewById<Button>(R.id.toGradeScreen)
         gradeScreenButton.setOnClickListener{
             val intent = Intent(this, GradeActivity::class.java)
@@ -37,6 +40,7 @@ class MainActivity : AppCompatActivity() {
 
 
     }
+
     /*
     fun getGrade(gradeIn:String):String {
         val score = gradeIn.toDoubleOrNull()

@@ -7,6 +7,15 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toMainScreen"
+        android:layout_width="80dp"
+        android:layout_height="60dp"
+        android:layout_gravity="left"
+        android:text="Back" />
+
+
     <TextView
         android:id="@+id/gradeView"
         android:layout_width="wrap_content"
@@ -39,5 +48,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
+
 
 </LinearLayout>

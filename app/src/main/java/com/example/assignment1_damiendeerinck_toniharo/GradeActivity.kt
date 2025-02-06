@@ -1,6 +1,7 @@
 package com.example.assignment1_damiendeerinck_toniharo
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -27,6 +28,12 @@ class GradeActivity : AppCompatActivity() {
             val numberGrade = gradeIn.text
             val output = findViewById<TextView>(R.id.gradeView)
             output.text = getGrade(numberGrade.toString())
+        }
+
+        val mainActivity = findViewById<Button>(R.id.toMainScreen)
+        mainActivity.setOnClickListener {
+            val intent = Intent(this, mainActivity::class.java)
+            startActivity(intent)
         }
     }
     fun getGrade(gradeIn:String):String {

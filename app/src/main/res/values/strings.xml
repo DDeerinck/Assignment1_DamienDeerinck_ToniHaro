@@ -4,16 +4,8 @@
     <string name="enter_grade">Enter Grade</string>
     <string name="textview">Grade Checker</string>
     <string name="to_grading_screen">to grading screen</string>
-    <string-array name="Grades">
-        <item>A</item>
-        <item>A-</item>
-        <item>B+</item>
-        <item>B</item>
-        <item>B-</item>
-        <item>C+</item>
-        <item>C</item>
-        <item>C-</item>
-        <item>F</item>
+    <string-array name="devInfo">
+        <item>CS, 2024</item>
+        <item>CS, 2024</item>
     </string-array>
-    <string name="test">test</string>
 </resources>
