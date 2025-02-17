@@ -10,4 +10,24 @@
         <item>Toni Haro</item>
         <item>CS, 2025</item>
     </string-array>
+    <!-- this doesn't work
+    <string-array name="devNames">
+        <items index="0">
+            <item>Damien Deerinck</item>
+            <item>CS, 2025</item>
+        </items>
+        <items index="1">
+            <item>Toni Haro</item>
+            <item>CS, 2025</item>
+        </items>
+    </string-array>
+    -->
+    <string-array name="devNames">
+        <item>Damien Deerinck</item>
+        <item>Toni Haro</item>
+    </string-array>
+    <string-array name="info">
+        <item>CS, 2025</item>
+        <item>CS, 2025</item>
+    </string-array>
 </resources>
